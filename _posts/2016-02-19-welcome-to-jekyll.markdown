@@ -18,6 +18,37 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+{% highlight html %}
+<html>
+<head>
+    <title>Site Title</title>
+</head>
+<body>
+    <h1>Page Title</h1>
+    <p>Some text.</p>
+</body>
+</html>
+{% endhighlight %}
+
+{% highlight javascript %}
+$('element').click(function(){
+    var $this = $(this);
+    $this.text('new text');
+})
+{% endhighlight %}
+
+{% highlight css %}
+element {
+    display: block;
+}
+.element {
+    display: block;
+}
+#element {
+    display: block;
+}
+{% endhighlight %}
+
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
 [jekyll]:      http://jekyllrb.com
