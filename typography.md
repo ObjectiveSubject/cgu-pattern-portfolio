@@ -2,6 +2,7 @@
 layout: page
 title: Typography
 permalink: /typography/
+tags: brand
 ---
 
 

@@ -1,5 +1,6 @@
 ---
 layout: page
-title: Media
-permalink: /media/
+title: Responsive Media
+permalink: /responsive-media/
+tags: base
 ---
