@@ -1,0 +1,70 @@
+// Structure
+// ============================================ /
+$max-width: rem(1000) !global;
+
+$container_padding: 20px;
+
+$sm: 500px;
+$md: 768px;
+$lg: 1000px;
+$xl: 1500px;
+
+
+// Colors
+// ============================================ /
+$red: #b61f29;
+
+$color_text_main: #333;
+$color_text_heading: #333;
+
+$color_link: $red;
+$color_link_visited: $red;
+$color_link_hover: darken($red, 10%);
+
+$color_code: #0071BC;
+
+$color_blockquote: #222;
+
+$color_background_body: #fff;
+$color_background_hr: #ccc;
+$color_background_button: #e6e6e6;
+$color_background_pre: #eee;
+
+$color_border_button: #ccc #ccc #bbb;
+$color_border_button_hover: #ccc #bbb #aaa;
+$color_border_button_focus: #aaa #bbb #bbb;
+
+$color_background_selection: lightblue;
+$color_selection_text: $color_text_main;
+
+$color_border_input: #ccc;
+$color_border_input_hover: #ccc;
+$color_border_input_focus: #ccc;
+
+$color_text_input: #333;
+$color_text_input_hover: #111;
+$color_text_input_focus: $red;
+
+$color_text_muted: #aaa;
+
+
+// Typography
+// ============================================ /
+$font_main: "GothamNarrow", "Arial", sans-serif;
+$font_heading: "Gotham", "Arial", sans-serif;
+$font_code: "Menlo", monospace;
+$font_pre: "Menlo", monospace;
+$leading: 1.5rem;
+$font_line_height_pre: 1.6rem;
+
+
+// Tables
+// ============================================ /
+$table_bg: transparent;
+$table_bg_accent: #fafafa;
+$table_bg_hover: #eee;
+$table_bg_nested: transparent;
+$table_cell_padding: 5px;
+$line_height_base: 1em;
+$table_border_color: #DDD;
+$table_condensed_cell_padding: 5px;
