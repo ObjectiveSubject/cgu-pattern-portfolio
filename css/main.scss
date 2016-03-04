@@ -1,0 +1,29 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import
+    "bourbon/bourbon",
+    "neat/neat",
+    "base/fonts",
+    "base/variables",
+    "base/mixins",
+    "base/normalize",
+    "base/global",
+    "base/typography",
+    "base/helpers"
+;
+@import
+    "components/buttons",
+    "components/forms",
+    "components/media",
+    "components/navigation",
+    "components/syntax-highlighting"
+;
+@import
+    "layout/document",
+    "layout/header",
+    "layout/content",
+    "layout/footer"
+;
