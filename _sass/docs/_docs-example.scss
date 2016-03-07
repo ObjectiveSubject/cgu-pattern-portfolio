@@ -1,7 +1,3 @@
 .docs-example {
     margin-top: $leading;
-
-    & + .highlight pre {
-        margin-top: 0;
-    }
 }
