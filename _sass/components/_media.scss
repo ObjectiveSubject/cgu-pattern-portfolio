@@ -25,6 +25,10 @@ figure {
 	height: 0;
 	overflow: hidden;
 
+	&[class*="1x2"] {
+		padding-top: 50%;
+	}
+
 	&[class*="16x9"] {
 		padding-top: 56.25%;
 	}
@@ -33,7 +37,11 @@ figure {
 		padding-top: 75%;
 	}
 
-	iframe, video, object, .responsive-media-content {
+	&[class*="1x1"] {
+		padding-top: 100%;
+	}
+
+	iframe, video, object, img, .responsive-media-content {
 		position: absolute;
 		top: 0;
 		left: 0;

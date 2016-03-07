@@ -16,11 +16,9 @@
 ;
 @import
     "components/buttons",
-    "components/docs-example",
     "components/forms",
     "components/media",
-    "components/navigation",
-    "components/syntax-highlighting"
+    "components/navigation"
 ;
 @import
     "layout/document",
@@ -29,5 +27,7 @@
     "layout/footer"
 ;
 @import
-    "docs/grid"
+    "docs/docs-example",
+    "docs/grid",
+    "docs/syntax-highlighting"
 ;

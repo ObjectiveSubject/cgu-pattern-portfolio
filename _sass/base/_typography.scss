@@ -117,7 +117,7 @@ address {
 pre {
 	background: $color_background_pre;
 	font-family: $font_pre;
-	font-size: rem(16);
+	font-size: rem(14);
 	line-height: $font_line_height_pre;
 	margin-bottom: 1.6em;
 	max-width: 100%;
@@ -128,8 +128,12 @@ pre {
 code, kbd, tt, var {
 	font-family: $font_code;
 	font-weight: 400;
-	font-size: rem(14);
+	background: $color_background_pre;
 	color: $color_code;
+	p & {
+		padding: 0.25em;
+		font-size: rem(14);
+	}
 }
 
 abbr, acronym {
