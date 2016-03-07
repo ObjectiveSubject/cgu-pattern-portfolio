@@ -7,20 +7,14 @@ tags: base
 
 Use the `button` tag or class to utilize buttons styles.
 
+{% example html %}
 <button>Button Tag</button>
+{% endexample %}
 
-{% highlight html %}
-<button>Button Text</button>
-{% endhighlight %}
-
+{% example html %}
 <a href="#" class="button">Anchor Tag</a>
+{% endexample %}
 
-{% highlight html %}
-<a href="#" class="button">Button Text</a>
-{% endhighlight %}
-
+{% example html %}
 <input type="submit" class="button" value="Input Tag" />
-
-{% highlight html %}
-<input type="submit" class="button" value="Input Tag" />
-{% endhighlight %}
+{% endexample %}
