@@ -12,7 +12,33 @@ $xl: 1500px;
 
 // Colors
 // ============================================ /
+$light_gray: #e4e1d7;
+$copper: #9e9270;
+$orange: #a75b00;
+$gold: #eb9719;
 $red: #b61f29;
+$dark_red: darken($red, 17%);
+$purple: #56416f;
+$navy: #0c5277;
+$blue: #00A6CE;
+$granite: #1b606a;
+$gray: tint(black, 60%);
+$text_color: #333;
+
+$color_map: (
+	'light-gray' : $light_gray,
+	'copper' 	 : $copper,
+	'orange' 	 : $orange,
+	'gold' 		 : $gold,
+	'red' 		 : $red,
+	'dark-red'	 : $dark_red,
+	'purple' 	 : $purple,
+	'navy' 		 : $navy,
+	'blue' 		 : $blue,
+	'granite' 	 : $granite,
+	'gray'		 : $gray,
+	'text-color' : #333
+);
 
 $color_text_main: #333;
 $color_text_heading: #333;
@@ -27,7 +53,8 @@ $color_blockquote: #222;
 
 $color_background_body: #fff;
 $color_background_hr: #ccc;
-$color_background_button: #e6e6e6;
+$color_background_button: $blue;
+$color_background_button_hover: $navy;
 $color_background_pre: #eee;
 
 $color_border_button: #ccc #ccc #bbb;
