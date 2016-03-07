@@ -16,7 +16,7 @@ Embedded media can be made responsive with the `responsive-media-` class. Just a
 </div>
 {% endexample %}
 
-`iframe`, `video`, `object`, and `img` tags will automatically be formatted to fit insde the responsive media container. If you need to use a different element, you can use the `responsive-media-content` class.
+`<iframe>`, `<video>`, `<object>`, and `<img>` tags will automatically be formatted to fit insde the responsive media container. If you need to use a different element, you can use the `responsive-media-content` class.
 
 #### Source SCSS
 
