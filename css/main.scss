@@ -4,8 +4,11 @@
 @charset "utf-8";
 
 @import
-    "bourbon/bourbon",
-    "neat/neat",
+    "vendor/bourbon/bourbon",
+    "vendor/neat/neat",
+    "vendor/slick"
+;
+@import
     "base/fonts",
     "base/variables",
     "base/mixins",
@@ -20,7 +23,8 @@
     "components/forms",
     "components/media",
     "components/navigation",
-    "components/tables"
+    "components/tables",
+    "components/sliders"
 ;
 @import
     "layout/document",

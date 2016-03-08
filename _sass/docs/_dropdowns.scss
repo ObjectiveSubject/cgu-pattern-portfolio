@@ -19,8 +19,7 @@
 		}
 		&.active {
 			.icon:before {
-				// content: $icon-arrow-up;
-                content: "^";
+				content: $icon-arrow-up;
 			}
 		}
 	}
