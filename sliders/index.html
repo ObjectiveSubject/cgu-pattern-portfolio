@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Claremont Graduate University</title>
+  <title>Sliders</title>
   <meta name="description" content="A pattern portfolio for Claremont Graduate University.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://objectivesubject.github.io/cgu-pattern-portfolio/">
+  <link rel="canonical" href="http://objectivesubject.github.io/cgu-pattern-portfolio/sliders/">
   <link rel="alternate" type="application/rss+xml" title="Claremont Graduate University" href="http://objectivesubject.github.io/cgu-pattern-portfolio/feed.xml" />
 </head>
 
@@ -190,21 +190,31 @@
 
         <div class="site-content">
           <div class="outer-container">
-            <div class="post doc-">
+            <div class="post doc-sliders">
 
   <header class="post-header">
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">Sliders</h1>
   </header>
 
   <article class="post-content">
-    <div class="home">
+    <p>CGU.edu utilizes the <a href="http://kenwheeler.github.io/slick/">Slick Slides</a> javascript library. Use the <code>slider</code> class on an element to turn its child elements into slides. Options can be provided to the slider in a <code>data-slick</code> attribute directly on the <code>.slider</code> element OR in the javascript as an argument to the <code>.slick()</code> method.</p>
 
-    <h1>Welcome</h1>
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
-    <p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a>.</p>
-    <p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
+<div class="docs-example clearfix"><ul class="slider" data-slick="{&quot;dots&quot;: true, &quot;fade&quot;: true}">
+    <li><img src="http://drucker.cgu.edu/wp-content/uploads/2016/01/emba-header-1500x430.jpg" alt="emba-header" /></li>
+    <li><img src="http://drucker.cgu.edu/wp-content/uploads/2016/01/final-slider-1-1500x430.jpg" alt="final-slider-1" /></li>
+    <li><img src="http://drucker.cgu.edu/wp-content/uploads/2015/12/final-slider-2b-1500x430.jpg" alt="final-slider-2b" /></li>
+    <li><img src="http://drucker.cgu.edu/wp-content/uploads/2016/01/test-slider6c-1500x430.jpg" alt="test-slider6c" /></li>
+</ul></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"slider"</span> <span class="na">data-slick=</span><span class="s">'{"dots": true, "fade": true}'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;img</span> <span class="na">src=</span><span class="s">"http://drucker.cgu.edu/wp-content/uploads/2016/01/emba-header-1500x430.jpg"</span> <span class="na">alt=</span><span class="s">"emba-header"</span> <span class="nt">/&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;img</span> <span class="na">src=</span><span class="s">"http://drucker.cgu.edu/wp-content/uploads/2016/01/final-slider-1-1500x430.jpg"</span> <span class="na">alt=</span><span class="s">"final-slider-1"</span> <span class="nt">/&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;img</span> <span class="na">src=</span><span class="s">"http://drucker.cgu.edu/wp-content/uploads/2015/12/final-slider-2b-1500x430.jpg"</span> <span class="na">alt=</span><span class="s">"final-slider-2b"</span> <span class="nt">/&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;&lt;img</span> <span class="na">src=</span><span class="s">"http://drucker.cgu.edu/wp-content/uploads/2016/01/test-slider6c-1500x430.jpg"</span> <span class="na">alt=</span><span class="s">"test-slider6c"</span> <span class="nt">/&gt;&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span></code></pre></div>
 
-</div>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'.slider'</span><span class="p">).</span><span class="nx">slick</span><span class="p">();</span></code></pre></div>
+
+<p>Read the <a href="https://github.com/kenwheeler/slick/">Slick slides docs</a> for more information.</p>
 
   </article>
 

@@ -17,3 +17,13 @@
 	});
 
 })(jQuery);
+
+/*
+ * Sliders
+ */
+
+(function($){
+
+    $('.slider').slick();
+
+})(jQuery);
