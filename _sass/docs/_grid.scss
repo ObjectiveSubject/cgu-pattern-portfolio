@@ -4,5 +4,6 @@
         @include omega(3n);
         border: 1px solid #ddd;
         padding: 1em;
+        margin-top: $leading;
     }
 }
