@@ -1,3 +1,12 @@
+.page-breadcrumbs {
+
+	.page-header {
+		background: $light_gray;
+		padding: 3rem;
+	}
+
+}
+
 /* Breadcrumbs
  * --------------------------------------- */
 .breadcrumbs {
@@ -20,28 +29,5 @@
 
 	span > span {
 		font-weight: 500;
-	}
-
-	.edit-link {
-		display: none;
-
-		a {
-			display: inline-block;
-			background: $color_background_button;
-			color: white;
-			font-size: rem(12);
-			padding: rem(1) rem(5);
-			font-weight: 500;
-			margin-left: 0.5rem;
-			vertical-align: text-top;
-			text-transform: uppercase;
-			&:hover {
-				background: $color_background_button_hover;
-				color: white;
-			}
-		}
-		@include media(md) {
-			display: inline-block;
-		}
 	}
 }
