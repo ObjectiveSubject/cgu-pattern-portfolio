@@ -19,10 +19,13 @@
     "base/helpers"
 ;
 @import
+    "components/breadcrumbs",
     "components/buttons",
+    "components/dropdowns",
     "components/forms",
     "components/media",
     "components/navigation",
+    "components/post-list",
     "components/tables",
     "components/sliders"
 ;
@@ -33,10 +36,8 @@
     "layout/footer"
 ;
 @import
-    "docs/blog-posts",
     "docs/breadcrumbs",
     "docs/docs-example",
-    "docs/dropdowns",
     "docs/grid",
     "docs/icons",
     "docs/syntax-highlighting"
