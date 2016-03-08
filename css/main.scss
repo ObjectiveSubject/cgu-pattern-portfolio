@@ -4,26 +4,41 @@
 @charset "utf-8";
 
 @import
-    "bourbon/bourbon",
-    "neat/neat",
+    "vendor/bourbon/bourbon",
+    "vendor/neat/neat",
+    "vendor/slick"
+;
+@import
     "base/fonts",
     "base/variables",
     "base/mixins",
     "base/normalize",
     "base/global",
     "base/typography",
+    "base/icons",
     "base/helpers"
 ;
 @import
+    "components/breadcrumbs",
     "components/buttons",
+    "components/dropdowns",
     "components/forms",
     "components/media",
     "components/navigation",
-    "components/syntax-highlighting"
+    "components/post-list",
+    "components/tables",
+    "components/sliders"
 ;
 @import
     "layout/document",
     "layout/header",
-    "layout/content",
+    "layout/post",
     "layout/footer"
+;
+@import
+    "docs/breadcrumbs",
+    "docs/docs-example",
+    "docs/grid",
+    "docs/icons",
+    "docs/syntax-highlighting"
 ;

@@ -5,10 +5,16 @@ permalink: /buttons-links/
 tags: base
 ---
 
-<button>Button Text</button>
-<a href="#" class="button">Button Text</a>
+Use the `button` tag or class to utilize buttons styles.
 
-{% highlight html %}
-<button>Button Text</button>
-<a href="#" class="button">Button Text</a>
-{% endhighlight %}
+{% example html %}
+<button>Button Tag</button>
+{% endexample %}
+
+{% example html %}
+<a href="#" class="button">Anchor Tag</a>
+{% endexample %}
+
+{% example html %}
+<input type="submit" class="button" value="Input Tag" />
+{% endexample %}

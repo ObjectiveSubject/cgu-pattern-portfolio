@@ -29,8 +29,10 @@
 	background: $color;
 	box-shadow: none;
 	color: white;
+	display: inline-block;
 	font-family: $font_heading;
 	font-size: 0.75rem;
+	font-weight: 700;
 	line-height: 1;
 	padding: .6em 1em .4em;
 	text-shadow: none;
@@ -42,7 +44,7 @@
     -webkit-appearance: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    transition: background 300ms ease;
+    @include transition(background 300ms ease);
 
     &:visited {
     	background: $color;

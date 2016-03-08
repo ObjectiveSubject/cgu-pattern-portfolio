@@ -31,6 +31,7 @@ textarea {
  	font-size: rem(48);
  	line-height: 1.2em;
 	font-family: $font_heading;
+	font-weight: 700;
  }
  h2, .h2 {
  	font-size: rem(30);
@@ -117,7 +118,7 @@ address {
 pre {
 	background: $color_background_pre;
 	font-family: $font_pre;
-	font-size: rem(16);
+	font-size: rem(14);
 	line-height: $font_line_height_pre;
 	margin-bottom: 1.6em;
 	max-width: 100%;
@@ -128,8 +129,12 @@ pre {
 code, kbd, tt, var {
 	font-family: $font_code;
 	font-weight: 400;
-	font-size: rem(14);
+	background: $color_background_pre;
 	color: $color_code;
+	p & {
+		padding: 0.25em;
+		font-size: rem(14);
+	}
 }
 
 abbr, acronym {
@@ -145,8 +150,8 @@ mark, ins {
 hr {
 	background-color: $color_background_hr;
 	border: 0;
-	height: 2px;
-	margin: 2em 0;
+	height: 1px;
+	margin: 2rem 0;
 	width: 100%;
 }
 
