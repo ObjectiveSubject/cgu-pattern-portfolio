@@ -1,0 +1,12 @@
+.site-header {
+    background: $red;
+    color: white;
+
+    a {
+        color: white;
+        font-weight: bold;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
