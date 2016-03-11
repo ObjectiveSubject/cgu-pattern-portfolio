@@ -9,6 +9,7 @@
 // Layout
 // ======================================= /
 .outer-container {
+	@include clearfix;
 	@include outer-container;
 	padding: 0 $container_padding;
 	&.bleed {

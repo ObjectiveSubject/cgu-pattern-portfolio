@@ -1,12 +1,52 @@
 .site-header {
-    background: $red;
+    position: fixed;
+    top: 0;
+    width: 100%;
     color: white;
 
     a {
         color: white;
         font-weight: bold;
-        &:hover {
+        font-size: 0.9rem;
+        padding: 1.5em 1em;
+        line-height: 1em;
+        &:hover, &:focus {
             opacity: 0.5;
+        }
+    }
+
+    .outer-container {
+        background: $red;
+    }
+
+}
+
+.site-title {
+    float: left;
+    margin: 0;
+    font-size: 0.9rem;
+    a {
+        display: block;
+    }
+}
+
+.site-nav {
+    float: right;
+
+    .menu {
+        margin: 0;
+    }
+
+    li {
+        float: left;
+    }
+
+    a {
+        display: block;
+        &:hover, &:focus {
+            opacity: 1;
+            background-color: darken($red, 10%);
+            color: white;
         }
     }
 }
