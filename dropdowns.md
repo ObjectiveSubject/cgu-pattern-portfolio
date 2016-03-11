@@ -2,7 +2,7 @@
 layout: page
 title: Dropdowns
 permalink: /dropdowns/
-tags: components
+tags: developer
 ---
 
 {% example html %}

@@ -3,7 +3,7 @@ layout: page
 title: Responsive Media
 slug: responsive-media
 permalink: /responsive-media/
-tags: base
+tags: developer
 ---
 
 Embedded media can be made responsive with the `responsive-media-` class. Just append the appropriate aspect ratio to the class name.

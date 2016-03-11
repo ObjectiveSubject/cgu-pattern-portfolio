@@ -3,7 +3,7 @@ layout: page
 title: Sliders
 slug: sliders
 permalink: /sliders/
-tags: components
+tags: developer
 ---
 
 CGU.edu utilizes the [Slick Slides](http://kenwheeler.github.io/slick/) javascript library. Use the `slider` class on an element to turn its child elements into slides. Options can be provided to the slider in a `data-slick` attribute directly on the `.slider` element OR in the javascript as an argument to the `.slick()` method.

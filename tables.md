@@ -2,7 +2,7 @@
 layout: page
 title: Tables
 permalink: /tables/
-tags: base
+tags: developer
 ---
 
 Use the `.table` class to assign the default table styles.

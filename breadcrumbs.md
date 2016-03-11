@@ -3,7 +3,7 @@ layout: page
 title: Breadcrumbs
 slug: breadcrumbs
 permalink: /breadcrumbs/
-tags: components
+tags: developer
 ---
 
 #### Example

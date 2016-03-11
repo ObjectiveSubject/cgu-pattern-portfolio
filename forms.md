@@ -2,7 +2,7 @@
 layout: page
 title: Inputs & Forms
 permalink: /inputs-forms/
-tags: base
+tags: developer
 ---
 
 {% example html %}

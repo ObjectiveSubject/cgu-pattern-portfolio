@@ -3,7 +3,7 @@ layout: page
 title: Grid
 slug: grid
 permalink: /grid/
-tags: base
+tags: developer
 ---
 
 Utilize the [Neat](http://neat.bourbon.io/) SASS framework for creating grids. It requires [Bourbon](http://bourbon.io/), which comes with its own set of handy mixins and functions.

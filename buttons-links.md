@@ -2,7 +2,7 @@
 layout: page
 title: Buttons & Links
 permalink: /buttons-links/
-tags: base
+tags: developer
 ---
 
 Use the `button` tag or class to utilize buttons styles.

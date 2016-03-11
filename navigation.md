@@ -2,7 +2,7 @@
 layout: page
 title: Navigation
 permalink: /navigation/
-tags: components
+tags: developer
 ---
 
 ##Main Navigation

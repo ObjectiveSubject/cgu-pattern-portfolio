@@ -13,4 +13,8 @@
     margin-top: $leading * 2;
     border-top: 1px solid $light_gray;
     @include span-columns(4);
+
+    a {
+        font-weight: bold;
+    }
 }

@@ -3,7 +3,7 @@ layout: page
 title: Ruled Lists
 slug: ruled-lists
 permalink: /ruled-lists/
-tags: components
+tags: developer
 ---
 
 To create a ruled list, utilize the `<hr>` tag along with the `hug` class on the proceeding text, which removes the top margin.

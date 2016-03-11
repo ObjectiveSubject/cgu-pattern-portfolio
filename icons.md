@@ -3,7 +3,7 @@ layout: page
 title: Icons
 slug: icons
 permalink: /icons/
-tags: components
+tags: developer
 ---
 
 #### Icons and their respective class names
