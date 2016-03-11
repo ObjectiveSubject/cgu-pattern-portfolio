@@ -104,6 +104,12 @@ html {
   src: url("../fonts/Gotham-Bold.otf");
   font-weight: 700;
   font-style: normal; }
+.gotham {
+  font-family: "Gotham"; }
+
+.gotham-narrow {
+  font-family: "GothamNarrow"; }
+
 /* Normalize
  * ------------------------------------------- */
 html {
@@ -572,6 +578,11 @@ big,
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px; }
+  .outer-container:before, .outer-container:after {
+    content: "";
+    display: table; }
+  .outer-container:after {
+    clear: both; }
   .outer-container:before, .outer-container:after {
     content: "";
     display: table; }
@@ -1139,17 +1150,46 @@ th {
       opacity: 0.75; }
 
 .site-header {
-  background: #b61f29;
+  position: fixed;
+  top: 0;
+  width: 100%;
   color: white; }
   .site-header a {
     color: white;
-    font-weight: bold; }
-    .site-header a:hover {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 1.5em 1em;
+    line-height: 1em; }
+    .site-header a:hover, .site-header a:focus {
       opacity: 0.5; }
+  .site-header .outer-container {
+    background: #b61f29; }
+
+.site-title {
+  float: left;
+  margin: 0;
+  font-size: 0.9rem; }
+  .site-title a {
+    display: block; }
+
+.site-nav {
+  float: right; }
+  .site-nav .menu {
+    margin: 0; }
+  .site-nav li {
+    float: left; }
+  .site-nav a {
+    display: block; }
+    .site-nav a:hover, .site-nav a:focus {
+      opacity: 1;
+      background-color: #8a181f;
+      color: white; }
 
 .doc-header {
-  background: #f2f0eb;
-  color: #b61f29; }
+  background: #fbf4f4;
+  color: #b61f29;
+  padding-top: 8rem;
+  padding-bottom: 1rem; }
 
 .doc-content {
   float: left;
@@ -1168,6 +1208,8 @@ th {
   width: 31.76157%; }
   .sidebar:last-child {
     margin-right: 0; }
+  .sidebar a {
+    font-weight: bold; }
 
 .site-footer {
   background: #f2f0eb; }
