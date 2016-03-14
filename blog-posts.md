@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog Posts
-permalink: /blog-posts/
+permalink: /developer/blog-posts/
 tags: developer
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: Responsive Media
 slug: responsive-media
-permalink: /responsive-media/
+permalink: /developer/responsive-media/
 tags: developer
 ---
 

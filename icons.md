@@ -2,7 +2,7 @@
 layout: page
 title: Icons
 slug: icons
-permalink: /icons/
+permalink: /developer/icons/
 tags: developer
 ---
 

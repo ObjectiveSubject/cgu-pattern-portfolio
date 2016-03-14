@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inputs & Forms
-permalink: /inputs-forms/
+permalink: /developer/inputs-forms/
 tags: developer
 ---
 

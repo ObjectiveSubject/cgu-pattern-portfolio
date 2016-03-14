@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tables
-permalink: /tables/
+permalink: /developer/tables/
 tags: developer
 ---
 

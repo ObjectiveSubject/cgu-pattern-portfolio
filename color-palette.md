@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Color Palette
-permalink: /color-palette/
+permalink: /brand/color-palette/
 tags: brand
 ---

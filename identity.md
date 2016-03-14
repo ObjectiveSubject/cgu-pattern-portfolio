@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Identity
-permalink: /identity/
+permalink: /brand/identity/
 tags: brand
 ---
 

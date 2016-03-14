@@ -2,7 +2,7 @@
 layout: page
 title: Breadcrumbs
 slug: breadcrumbs
-permalink: /breadcrumbs/
+permalink: /developer/breadcrumbs/
 tags: developer
 ---
 

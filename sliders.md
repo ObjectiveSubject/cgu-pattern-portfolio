@@ -2,7 +2,7 @@
 layout: page
 title: Sliders
 slug: sliders
-permalink: /sliders/
+permalink: /developer/sliders/
 tags: developer
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Navigation
-permalink: /navigation/
+permalink: /developer/navigation/
 tags: developer
 ---
 

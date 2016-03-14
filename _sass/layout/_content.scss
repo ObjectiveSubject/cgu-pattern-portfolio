@@ -1,0 +1,39 @@
+.doc-header {
+    background: tint($red, 95%);
+    color: $red;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.doc-content {
+    @include media($md) {
+        @include span-columns(8);
+    }
+    margin-top: $leading * 2;
+
+    & > *:first-child {
+        margin-top: 0;
+    }
+}
+
+.sidebar {
+    margin-top: $leading * 2;
+    border-top: 1px solid $light_gray;
+    @include media($md) {
+        @include span-columns(3);
+        @include shift(1);
+    }
+
+    ul {
+        padding-top: 0.25rem;
+    }
+
+    a {
+        display: block;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: $font_heading;
+        padding: 0.25rem 0;
+    }
+}

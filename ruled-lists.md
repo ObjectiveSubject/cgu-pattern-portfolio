@@ -2,7 +2,7 @@
 layout: page
 title: Ruled Lists
 slug: ruled-lists
-permalink: /ruled-lists/
+permalink: /developer/ruled-lists/
 tags: developer
 ---
 

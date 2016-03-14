@@ -2,7 +2,7 @@
 layout: page
 title: Grid
 slug: grid
-permalink: /grid/
+permalink: /developer/grid/
 tags: developer
 ---
 

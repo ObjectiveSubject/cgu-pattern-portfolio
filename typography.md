@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Typography
-permalink: /typography/
+permalink: /brand/typography/
 tags: brand
 ---
 

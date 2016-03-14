@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Buttons & Links
-permalink: /buttons-links/
+permalink: /developer/buttons-links/
 tags: developer
 ---
 

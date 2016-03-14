@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dropdowns
-permalink: /dropdowns/
+permalink: /developer/dropdowns/
 tags: developer
 ---
 
