@@ -1,13 +1,51 @@
 ---
 layout: parent-page
 slug: index
-title: Claremont Graduate University
+title: Claremont Graduate University Brand Guidelines
 ---
 
-<div class="home">
+<h3 class="light">
+    Some kind of introduction. Morbi eu cursus enim, at pretium massa. Duis malesuada nec magna sit amet dapibus. Nullam consequat ornare dolor sit amet tincidunt.
+</h3>
 
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
-    <p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a>.</p>
-    <p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
+<ul class="list-unstyled three-column push-double">
+    <li class="cgu-brand">
+        <a href="{{ '/brand' | prepend: site.baseurl }}" class="h2 no-decoration">CGU Brand</a>
+        <ul class="list-unstyled push">
+            {% for page in site.pages %}
+                {% if page.title and page.tags == 'brand' %}
+                    <li class="h3 light hug"><a class="page-link no-decoration" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+    <li class="cgu-developer">
+        <a href="{{ '/developer' | prepend: site.baseurl }}" class="h2 no-decoration">Developers</a>
+        <ul class="list-unstyled push">
+            {% for page in site.pages %}
+                {% if page.title and page.tags == 'developer' %}
+                    <li class="h3 light hug"><a class="page-link no-decoration" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+    <li class="cgu-templates">
+        <a href="{{ '/templates' | prepend: site.baseurl }}" class="h2 no-decoration">Templates</a>
+        <ul class="list-unstyled push">
+            {% for page in site.pages %}
+                {% if page.title and page.tags == 'templates' %}
+                    <li class="h3 light hug"><a class="page-link no-decoration" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+</ul>
 
-</div>
+<hr>
+
+<p class="gotham"><strong>
+    <span class="color-red">NEED HELP?</span><br>
+    CONTACT BRAND<br>MANAGEMENT<br><br>
+    JOHN DOE<br>
+    +1 555 505 5050<br><a href="mailto:JOHN@CGU.EDU">JOHN@CGU.EDU</a>
+</strong></p>

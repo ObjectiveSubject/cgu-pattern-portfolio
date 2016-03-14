@@ -38,10 +38,20 @@
 }
 
 .two-column {
+	@include clearfix;
 	& > * {
 		@include media($md) {
 			@include span-columns(6);
 			@include omega(2n);
+		}
+	}
+}
+.three-column {
+	@include clearfix;
+	& > * {
+		@include media($md) {
+			@include span-columns(4);
+			@include omega(3n);
 		}
 	}
 }

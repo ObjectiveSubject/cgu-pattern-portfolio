@@ -11,6 +11,10 @@
         background: tint($copper, 95%);
         color: $copper;
     }
+    .doc-index & {
+        background: $red;
+        color: white;
+    }
 }
 
 .doc-content {
