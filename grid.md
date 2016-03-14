@@ -7,7 +7,7 @@ permalink: /developer/grid/
 tags: developer
 ---
 
-Utilize the [Neat](http://neat.bourbon.io/) SASS framework for creating grids. It requires [Bourbon](http://bourbon.io/), which comes with its own set of handy mixins and functions.
+The [Neat](http://neat.bourbon.io/) SASS framework can be used to quickly implement a grid structure. It requires [Bourbon](http://bourbon.io/), which also comes with its own set of handy mixins and functions.
 
 Neat allows you to set variables for grid columns and page width, among other things. Below is an example of how you can use Neat's mixins.
 
