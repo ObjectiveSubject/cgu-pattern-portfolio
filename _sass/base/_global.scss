@@ -28,14 +28,17 @@ a {
 	color: $color_link;
 	text-decoration: none;
 	transition: all 250ms ease;
+	.doc-brand & { color: $red; }
+	.doc-developer & { color: $purple; }
+	.doc-templates & { color: $purple; }
 
-	&:visited {
-		color: $color_link_visited;
-	}
 	&:hover,
 	&:focus,
 	&:active {
 		color: $color_link_hover;
+		.doc-brand & { color: lighten($red, 30%); }
+		.doc-developer & { color: lighten($purple, 30%); }
+		.doc-templates & { color: lighten($purple, 30%); }
 	}
 	&:focus {
 		outline: thin dotted;

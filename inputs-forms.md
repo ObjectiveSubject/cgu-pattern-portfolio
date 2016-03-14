@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Inputs & Forms
+parent: developer
+slug: inputs-forms
 permalink: /developer/inputs-forms/
 tags: developer
 ---

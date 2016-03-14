@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Breadcrumbs
+parent: developer
 slug: breadcrumbs
 permalink: /developer/breadcrumbs/
 tags: developer

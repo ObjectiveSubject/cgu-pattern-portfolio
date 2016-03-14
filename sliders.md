@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sliders
+parent: developer
 slug: sliders
 permalink: /developer/sliders/
 tags: developer

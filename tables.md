@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Tables
+parent: developer
+slug: tables
 permalink: /developer/tables/
 tags: developer
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ruled Lists
+parent: developer
 slug: ruled-lists
 permalink: /developer/ruled-lists/
 tags: developer

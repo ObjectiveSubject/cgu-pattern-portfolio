@@ -3,12 +3,12 @@
 {% include head.html %}
 <body>
 
-    <div id="page">
+    <div id="page" class="{% if page.parent %}doc-{{ page.parent }} {% endif %}doc-{{ page.slug }}">
         {% include header.html %}
 
         <div class="site-content">
 
-            <article class="post doc-{{ page.slug }} clearfix">
+            <article class="post clearfix">
 
                 <header class="doc-header">
                     <div class="outer-container">

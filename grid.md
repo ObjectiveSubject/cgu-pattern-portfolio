@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Grid
+parent: developer
 slug: grid
 permalink: /developer/grid/
 tags: developer

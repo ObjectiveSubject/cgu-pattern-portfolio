@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Typography
+parent: brand
+slug: typography
 permalink: /brand/typography/
 tags: brand
 ---

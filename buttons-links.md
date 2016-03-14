@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Buttons & Links
+parent: developer
+slug: buttons-links
 permalink: /developer/buttons-links/
 tags: developer
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Responsive Media
+parent: developer
 slug: responsive-media
 permalink: /developer/responsive-media/
 tags: developer

@@ -3,6 +3,14 @@
     color: $red;
     padding-top: 8rem;
     padding-bottom: 1rem;
+    .doc-developer & {
+        background: tint($purple, 95%);
+        color: $purple;
+    }
+    .doc-templates & {
+        background: tint($copper, 95%);
+        color: $copper;
+    }
 }
 
 .doc-content {

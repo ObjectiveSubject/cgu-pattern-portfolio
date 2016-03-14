@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Blog Posts
+parent: developer
+slug: blog-posts
 permalink: /developer/blog-posts/
 tags: developer
 ---

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Dropdowns
+parent: developer
+slug: dropdowns
 permalink: /developer/dropdowns/
 tags: developer
 ---

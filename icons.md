@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Icons
+parent: developer
 slug: icons
 permalink: /developer/icons/
 tags: developer

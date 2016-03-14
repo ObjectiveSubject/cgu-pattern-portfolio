@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Navigation
+parent: developer
+slug: navigation
 permalink: /developer/navigation/
 tags: developer
 ---
