@@ -11,15 +11,15 @@ Utilize the [Neat](http://neat.bourbon.io/) SASS framework for creating grids. I
 Neat allows you to set variables for grid columns and page width, among other things. Below is an example of how you can use Neat's mixins.
 
 {% example html %}
-<div class="column">Column 1 Row 1</div>
-<div class="column">Column 2 Row 1</div>
-<div class="column">Column 3 Row 1</div>
-<div class="column">Column 1 Row 2</div>
-<div class="column">Column 2 Row 2</div>
-<div class="column">Column 3 Row 2</div>
-<div class="column">Column 1 Row 3</div>
-<div class="column">Column 2 Row 3</div>
-<div class="column">Column 3 Row 3</div>
+<div class="column">.column</div>
+<div class="column">.column</div>
+<div class="column">.column</div>
+<div class="column">.column</div>
+<div class="column">.column</div>
+<div class="column">.column</div>
+<div class="column">.column</div>
+<div class="column">.column</div>
+<div class="column">.column</div>
 {% endexample %}
 
 {% highlight scss %}

@@ -1,0 +1,9 @@
+.doc-grid {
+    .column {
+        @include span-columns(4);
+        @include omega(3n);
+        padding: 1em;
+        border: 1px solid $light_gray;
+        margin-bottom: 1em;
+    }
+}
