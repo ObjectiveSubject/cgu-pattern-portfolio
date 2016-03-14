@@ -8,23 +8,23 @@ layout: default
 <aside class="sidebar">
     <ul class="list-unstyled">
         {% if page.tags == 'brand' %}
-            {% for page in site.pages %}
-                {% if page.title and page.tags == 'brand' %}
-                    <li class="menu-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% for p in site.pages %}
+                {% if p.title and p.tags == 'brand' %}
+                    <li class="menu-item {% if page.slug == p.slug %}current{% endif %}"><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
                 {% endif %}
             {% endfor %}
         {% endif %}
         {% if page.tags == 'developer' %}
-            {% for page in site.pages %}
-                {% if page.title and page.tags == 'developer' %}
-                    <li class="menu-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% for p in site.pages %}
+                {% if p.title and p.tags == 'developer' %}
+                    <li class="menu-item {% if page.slug == p.slug %}current{% endif %}"><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
                 {% endif %}
             {% endfor %}
         {% endif %}
         {% if page.tags == 'templates' %}
-            {% for page in site.pages %}
-                {% if page.title and page.tags == 'templates' %}
-                    <li class="menu-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% for p in site.pages %}
+                {% if p.title and p.tags == 'templates' %}
+                    <li class="menu-item {% if page.slug == p.slug %}current{% endif %}"><a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
                 {% endif %}
             {% endfor %}
         {% endif %}

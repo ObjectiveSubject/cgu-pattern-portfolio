@@ -39,8 +39,22 @@
         @include shift(1);
     }
 
+    .doc-brand & { border-top-color: $red; }
+    .doc-developer & { border-top-color: $purple; }
+    .doc-templates & { border-top-color: $copper; }
+
     ul {
         padding-top: 0.25rem;
+    }
+
+    li {
+        &.current {
+            a {
+                border-left: 1px solid;
+                padding-left: 10px;
+                margin-left: -11px;
+            }
+        }
     }
 
     a {
