@@ -3,7 +3,7 @@
 {% include head.html %}
 <body>
 
-    <div id="page" class="{% if page.parent %}doc-{{ page.parent }} {% endif %}doc-{{ page.slug }}">
+    <div id="page" class="{% if page.parent %}doc-child doc-{{ page.parent }} {% endif %}doc-{{ page.slug }}">
         {% include header.html %}
 
         <div class="site-content">

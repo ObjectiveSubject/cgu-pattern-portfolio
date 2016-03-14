@@ -14,10 +14,13 @@
 }
 
 .doc-content {
-    @include media($md) {
-        @include span-columns(8);
-    }
     margin-top: $leading * 2;
+
+    .doc-child & {
+        @include media($md) {
+            @include span-columns(8);
+        }
+    }
 
     & > *:first-child {
         margin-top: 0;

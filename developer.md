@@ -5,13 +5,14 @@ slug: developer
 permalink: /developer/
 ---
 
-Developer Elements
-
 {% markup html %}
-<ul>
+<ul class="list-unstyled two-column">
 {% for page in site.pages %}
     {% if page.title and page.tags == 'developer' %}
-        <li class="menu-item"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        <li class="menu-item">
+            <hr>
+            <h2 class="light"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+        </li>
     {% endif %}
 {% endfor %}
 </ul>

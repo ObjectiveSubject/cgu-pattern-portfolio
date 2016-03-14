@@ -37,6 +37,15 @@
   @include clearfix;
 }
 
+.two-column {
+	& > * {
+		@include media($md) {
+			@include span-columns(6);
+			@include omega(2n);
+		}
+	}
+}
+
 // Lists
 // ======================================= /
 .list-unstyled {
