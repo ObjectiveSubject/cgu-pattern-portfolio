@@ -56,7 +56,7 @@
 
 // Style
 // ======================================= /
-a.no-decoration { text-decoration: none; }
+a.no-decoration { text-decoration: none !important; }
 
 .media-size  {
 	position: fixed;

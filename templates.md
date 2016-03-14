@@ -11,7 +11,7 @@ permalink: /templates/
     {% if page.title and page.tags == 'templates' %}
         <li class="menu-item">
             <hr>
-            </h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+            </h2><a class="page-link no-decoration" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
         </li>
     {% endif %}
 {% endfor %}
