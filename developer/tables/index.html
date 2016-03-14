@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tables</title>
+  <meta name="description" content="A pattern portfolio for Claremont Graduate University.
+">
+
+  <link rel="stylesheet" href="/cgu-pattern-portfolio/css/main.css">
+  <link rel="canonical" href="http://objectivesubject.github.io/cgu-pattern-portfolio/cgu-pattern-portfolio/developer/tables/">
+  <link rel="alternate" type="application/rss+xml" title="Claremont Graduate University" href="http://objectivesubject.github.io/cgu-pattern-portfolio/cgu-pattern-portfolio/feed.xml" />
+</head>
+
+<body>
+
+    <div id="page" class="doc-child doc-developer doc-tables">
+        <header class="site-header">
+
+    <div class="outer-container bleed">
+
+        <h1 class="site-title h3 caps"><a href="/cgu-pattern-portfolio/">CGU <span class="faded">Brand Guidelines</span></a></h1>
+
+        <nav class="site-nav">
+            <ul class="menu list-unstyled clearfix">
+                <li class=""><a href="/cgu-pattern-portfolio/brand">Brand</a></li>
+                <li class="current"><a href="/cgu-pattern-portfolio/developer">Developer</a></li>
+                <li class=""><a href="/cgu-pattern-portfolio/templates">Templates</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+
+
+        <div class="site-content">
+
+            <article class="post clearfix">
+
+                <header class="doc-header">
+                    <div class="outer-container">
+                        <h1 class="post-title">Tables</h1>
+                    </div>
+                </header>
+
+                <div class="outer-container">
+                    <div class="doc-content">
+    <p>Use the <code>.table</code> class to assign the default table styles.</p>
+
+<h4 id="example-basic-table">Example: Basic table</h4>
+
+<div class="docs-example clearfix"><table class="table">
+    <tbody>
+        <tr>
+            <th>Expenses</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Fees</td>
+            <td>$1,847 per unit</td>
+        </tr>
+        <tr>
+            <td>Total Tuition Cost*</td>
+            <td>$110,820</td>
+        </tr>
+        <tr>
+            <td>Room &amp; Board</td>
+            <td>$8,100</td>
+        </tr>
+    </tbody>
+</table></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;th&gt;</span>Expenses<span class="nt">&lt;/th&gt;</span>
+            <span class="nt">&lt;td&gt;&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Fees<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$1,847 per unit<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Total Tuition Cost*<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$110,820<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Room <span class="ni">&amp;amp;</span> Board<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$8,100<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tbody&gt;</span>
+<span class="nt">&lt;/table&gt;</span></code></pre></div>
+
+<p>Additionally, there are helper classes to further customize tables.</p>
+
+<h4 id="example-ruled-table">Example: Ruled Table</h4>
+
+<div class="docs-example clearfix"><table class="table table-ruled">
+    <tbody>
+        <tr>
+            <th>Expenses</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Fees</td>
+            <td>$1,847 per unit</td>
+        </tr>
+        <tr>
+            <td>Total Tuition Cost*</td>
+            <td>$110,820</td>
+        </tr>
+        <tr>
+            <td>Room &amp; Board</td>
+            <td>$8,100</td>
+        </tr>
+    </tbody>
+</table></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-ruled"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;th&gt;</span>Expenses<span class="nt">&lt;/th&gt;</span>
+            <span class="nt">&lt;td&gt;&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Fees<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$1,847 per unit<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Total Tuition Cost*<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$110,820<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Room <span class="ni">&amp;amp;</span> Board<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$8,100<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tbody&gt;</span>
+<span class="nt">&lt;/table&gt;</span></code></pre></div>
+
+<h4 id="example-bordered-table">Example: Bordered Table</h4>
+
+<div class="docs-example clearfix"><table class="table table-bordered">
+    <tbody>
+        <tr>
+            <th>Expenses</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Fees</td>
+            <td>$1,847 per unit</td>
+        </tr>
+        <tr>
+            <td>Total Tuition Cost*</td>
+            <td>$110,820</td>
+        </tr>
+        <tr>
+            <td>Room &amp; Board</td>
+            <td>$8,100</td>
+        </tr>
+    </tbody>
+</table></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-bordered"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;th&gt;</span>Expenses<span class="nt">&lt;/th&gt;</span>
+            <span class="nt">&lt;td&gt;&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Fees<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$1,847 per unit<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Total Tuition Cost*<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$110,820<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Room <span class="ni">&amp;amp;</span> Board<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$8,100<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tbody&gt;</span>
+<span class="nt">&lt;/table&gt;</span></code></pre></div>
+
+<h4 id="example-hover-rows">Example: Hover rows</h4>
+
+<div class="docs-example clearfix"><table class="table table-hover table-ruled">
+    <tbody>
+        <tr>
+            <th>Expenses</th>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Fees</td>
+            <td>$1,847 per unit</td>
+        </tr>
+        <tr>
+            <td>Total Tuition Cost*</td>
+            <td>$110,820</td>
+        </tr>
+        <tr>
+            <td>Room &amp; Board</td>
+            <td>$8,100</td>
+        </tr>
+    </tbody>
+</table></div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-hover table-ruled"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;tbody&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;th&gt;</span>Expenses<span class="nt">&lt;/th&gt;</span>
+            <span class="nt">&lt;td&gt;&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Fees<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$1,847 per unit<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Total Tuition Cost*<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$110,820<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>Room <span class="ni">&amp;amp;</span> Board<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>$8,100<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/tbody&gt;</span>
+<span class="nt">&lt;/table&gt;</span></code></pre></div>
+
+
+</div>
+
+<aside class="sidebar">
+    <ul class="list-unstyled">
+        
+        
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/blog-posts/">Blog Posts</a></li>
+                
+            
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/breadcrumbs/">Breadcrumbs</a></li>
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/buttons-links/">Buttons & Links</a></li>
+                
+            
+                
+            
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/dropdowns/">Dropdowns</a></li>
+                
+            
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/grid/">Grid</a></li>
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/icons/">Icons</a></li>
+                
+            
+                
+            
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/inputs-forms/">Inputs & Forms</a></li>
+                
+            
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/responsive-media/">Responsive Media</a></li>
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/navigation/">Navigation</a></li>
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/ruled-lists/">Ruled Lists</a></li>
+                
+            
+                
+                    <li class="menu-item "><a class="page-link" href="/cgu-pattern-portfolio/developer/sliders/">Sliders</a></li>
+                
+            
+                
+                    <li class="menu-item current"><a class="page-link" href="/cgu-pattern-portfolio/developer/tables/">Tables</a></li>
+                
+            
+                
+            
+                
+            
+        
+        
+    </ul>
+</aside>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <footer class="site-footer">
+    <div class="outer-container">
+        <p class="footer-heading"><strong>Claremont Graduate University</strong></p>
+        <p class="hug">A pattern portfolio for Claremont Graduate University.
+</p>
+    </div>
+</footer>
+
+<script src="/cgu-pattern-portfolio/js/jquery-2.2.1.min.js"></script>
+<script src="/cgu-pattern-portfolio/js/slick.min.js"></script>
+<script src="/cgu-pattern-portfolio/js/main.js"></script>
+
+    </div>
+
+</body>
+</html>
