@@ -1,3 +1,5 @@
 .site-footer {
+    margin-top: $leading * 3;
+    padding-bottom: $leading;
     background: tint($light_gray, 50%);
 }
