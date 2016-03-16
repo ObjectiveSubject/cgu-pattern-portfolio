@@ -34,6 +34,6 @@ Common practice is to provide an empty `<span>` tag.
 
 {% example html %}
 <div class="h2">
-    <a href="#"><span class="icon-search"></span> Search</a>
+    <a href="#" class="no-decoration"><span class="icon-search"></span> Search</a>
 </div>
 {% endexample %}
