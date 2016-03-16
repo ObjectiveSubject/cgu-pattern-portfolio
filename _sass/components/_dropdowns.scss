@@ -13,6 +13,7 @@
 	.dropdown-title {
 		position: relative;
 		transition: all 300ms ease;
+        padding-right: 1em;
 		&.active, &:hover {
 			color: #6c1218;
 			cursor: pointer;

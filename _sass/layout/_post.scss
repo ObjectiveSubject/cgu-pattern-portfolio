@@ -2,19 +2,43 @@
     text-transform: uppercase;
 }
 
-.cgu-developer {
-    a {
-        color: $purple;
-        &:hover, &:focus {
-            color: $color_link_hover;
+
+// Home Page
+.doc-index {
+    .cgu-developer {
+        a {
+            color: $purple;
+            &:hover, &:focus {
+                color: $color_link_hover;
+            }
+        }
+    }
+    .cgu-templates {
+        a {
+            color: $copper;
+            &:hover, &:focus {
+                color: $color_link_hover;
+            }
         }
     }
 }
-.cgu-templates {
-    a {
-        color: $copper;
-        &:hover, &:focus {
-            color: $color_link_hover;
+
+.post a {
+    .doc-brand & { color: $red; }
+    .doc-developer & {
+        &:not(.button) {
+            color: $purple;
         }
+    }
+    .doc-templates & { color: $purple; }
+
+    &:hover {
+        .doc-brand & { color: lighten($red, 30%); }
+        .doc-developer & {
+            &:not(.button) {
+                color: lighten($purple, 30%);
+            }
+        }
+        .doc-templates & { color: lighten($purple, 30%); }
     }
 }

@@ -46,11 +46,6 @@
     -moz-osx-font-smoothing: grayscale;
     @include transition(background 300ms ease);
 
-    &:visited {
-    	background: $color;
-    	color: white;
-    }
-
 	&:hover, &:focus {
 		background: $hover;
 		color: white;

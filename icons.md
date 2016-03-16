@@ -27,13 +27,13 @@ tags: developer
 </ul>
 {% endmarkup %}
 
-##Using icons
+###Using icons
 
 Icons utilize the `:before` pseudo element in the css. So you can simply create an element with an icon class and the respective icon will be attached to that element.
 Common practice is to provide an empty `<span>` tag.
 
 {% example html %}
-<div class="h2">
+<div class="h3">
     <a href="#" class="no-decoration"><span class="icon-search"></span> Search</a>
 </div>
 {% endexample %}

@@ -7,8 +7,8 @@ permalink: /developer/navigation/
 tags: developer
 ---
 
-##Main Navigation
+###Main Navigation
 
-##Nav Bars
+###Nav Bars
 
-##Footer Lists
+###Footer Lists

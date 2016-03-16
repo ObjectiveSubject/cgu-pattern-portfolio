@@ -13,19 +13,19 @@ To create a ruled list, utilize the `<hr>` tag along with the `hug` class on the
 <ul class="list-unstyled ruled">
     <li>
     	<hr>
-    	<h2 class="hug">List Item 1</h2>
+    	<h3 class="hug">List Item 1</h3>
     </li>
     <li>
     	<hr>
-    	<h2 class="hug">List Item 2</h2>
+    	<h3 class="hug">List Item 2</h3>
     </li>
     <li>
     	<hr>
-    	<h2 class="hug">List Item 3</h2>
+    	<h3 class="hug">List Item 3</h3>
     </li>
     <li>
     	<hr>
-    	<h2 class="hug">List Item 4</h2>
+    	<h3 class="hug">List Item 4</h3>
     </li>
 </ul>
 {% endexample %}
