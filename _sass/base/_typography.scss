@@ -36,14 +36,19 @@ textarea {
  h2, .h2 {
  	font-size: rem(30);
  	line-height: 1.2em;
+	font-weight: 300;
  }
  h3, .h3 {
  	font-size: rem(20);
  	line-height: 1.3em;
+	font-weight: 300;
  }
  h4, .h4 {
  	font-size: rem(14);
  	line-height: 1.4em;
+	text-transform: uppercase;
+	font-family: $font_heading;
+	font-weight: 700;
  }
  h5, .h5 {
  	font-size: 1rem;
