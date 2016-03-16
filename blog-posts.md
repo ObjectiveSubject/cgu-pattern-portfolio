@@ -45,11 +45,14 @@ tags: developer
 .post-list {
 
     .hentry {
-        @include span-columns(4);
-        @include omega(3n+2);
+        @include span-columns(6);
+        &:nth-child(2n+3) {
+            margin-right: 0;
+        }
 
         &:first-child {
-            @include span-columns(8);
+            @include span-columns(12);
+            margin-right: 0;
             .entry-title {
                 font-size: rem(50);
                 line-height: rem(56);
