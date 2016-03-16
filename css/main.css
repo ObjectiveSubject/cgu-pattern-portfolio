@@ -314,20 +314,8 @@ a {
   color: #b61f29;
   text-decoration: none;
   transition: all 250ms ease; }
-  .doc-brand a {
-    color: #b61f29; }
-  .doc-developer a {
-    color: #56416f; }
-  .doc-templates a {
-    color: #56416f; }
   a:hover, a:focus, a:active {
     color: #00A6CE; }
-    .doc-brand a:hover, .doc-brand a:focus, .doc-brand a:active {
-      color: #ea848b; }
-    .doc-developer a:hover, .doc-developer a:focus, .doc-developer a:active {
-      color: #a28dbc; }
-    .doc-templates a:hover, .doc-templates a:focus, .doc-templates a:active {
-      color: #a28dbc; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -392,22 +380,27 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0; }
 
 h1, .h1 {
-  font-size: 3rem;
-  line-height: 1.2em;
+  font-size: 4rem;
+  line-height: 1em;
   font-family: "Gotham", "Arial", sans-serif;
   font-weight: 700; }
 
 h2, .h2 {
-  font-size: 1.875rem;
-  line-height: 1.2em; }
+  font-size: 3.125rem;
+  line-height: 1.1em;
+  font-weight: 300; }
 
 h3, .h3 {
-  font-size: 1.25rem;
-  line-height: 1.3em; }
+  font-size: 1.625rem;
+  line-height: 1.3em;
+  font-weight: 300; }
 
 h4, .h4 {
   font-size: 0.875rem;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  text-transform: uppercase;
+  font-family: "Gotham", "Arial", sans-serif;
+  font-weight: 700; }
 
 h5, .h5 {
   font-size: 1rem; }
@@ -703,6 +696,8 @@ a.no-decoration {
       color: white; }
       .has-post-thumbnail .page-header .breadcrumbs a:hover, .has-hero-slider .page-header .breadcrumbs a:hover {
         color: #00A6CE; }
+  .breadcrumbs a {
+    text-decoration: none; }
   .breadcrumbs span > span {
     font-weight: 500; }
 
@@ -734,13 +729,6 @@ input[type="submit"] {
   -webkit-transition: background 300ms ease;
   -moz-transition: background 300ms ease;
   transition: background 300ms ease; }
-  button:visited,
-  .button:visited,
-  input[type="button"]:visited,
-  input[type="reset"]:visited,
-  input[type="submit"]:visited {
-    background: #00A6CE;
-    color: white; }
   button:hover, button:focus,
   .button:hover,
   .button:focus,
@@ -788,7 +776,8 @@ input[type="submit"] {
   display: none; }
 .dropdown-list-item .dropdown-title {
   position: relative;
-  transition: all 300ms ease; }
+  transition: all 300ms ease;
+  padding-right: 1em; }
   .dropdown-list-item .dropdown-title.active, .dropdown-list-item .dropdown-title:hover {
     color: #6c1218;
     cursor: pointer; }
@@ -946,18 +935,17 @@ figure {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 48.82117%; }
   .post-list .hentry:last-child {
     margin-right: 0; }
-  .post-list .hentry:nth-child(5n) {
+  .post-list .hentry:nth-child(2n+3) {
     margin-right: 0; }
-  .post-list .hentry:nth-child(5n+1) {
-    clear: left; }
   .post-list .hentry:first-child {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%; }
+    width: 100%;
+    margin-right: 0; }
     .post-list .hentry:first-child:last-child {
       margin-right: 0; }
     .post-list .hentry:first-child .entry-title {
@@ -965,6 +953,8 @@ figure {
       line-height: 3.5rem; }
   .post-list .hentry .entry-title {
     width: 100%; }
+    .post-list .hentry .entry-title a {
+      text-decoration: none; }
 
 /* Tables
  * -----------------------------------------------------------*/
@@ -1280,7 +1270,7 @@ th {
         margin-right: 0; } }
   .doc-content > *:first-child {
     margin-top: 0; }
-  .doc-content a {
+  .doc-content p a {
     text-decoration: underline; }
 
 .sidebar {
@@ -1318,15 +1308,27 @@ th {
 .post-title {
   text-transform: uppercase; }
 
-.cgu-developer a {
+.doc-index .cgu-developer a {
   color: #56416f; }
-  .cgu-developer a:hover, .cgu-developer a:focus {
+  .doc-index .cgu-developer a:hover, .doc-index .cgu-developer a:focus {
+    color: #00A6CE; }
+.doc-index .cgu-templates a {
+  color: #9e9270; }
+  .doc-index .cgu-templates a:hover, .doc-index .cgu-templates a:focus {
     color: #00A6CE; }
 
-.cgu-templates a {
-  color: #9e9270; }
-  .cgu-templates a:hover, .cgu-templates a:focus {
-    color: #00A6CE; }
+.doc-brand .post a {
+  color: #b61f29; }
+.doc-developer .post a:not(.button) {
+  color: #56416f; }
+.doc-templates .post a {
+  color: #56416f; }
+.doc-brand .post a:hover {
+  color: #ea848b; }
+.doc-developer .post a:hover:not(.button) {
+  color: #a28dbc; }
+.doc-templates .post a:hover {
+  color: #a28dbc; }
 
 .site-footer {
   margin-top: 4.5rem;

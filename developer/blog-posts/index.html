@@ -110,11 +110,14 @@
 <div class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nc">.post-list</span> <span class="p">{</span>
 
     <span class="nc">.hentry</span> <span class="p">{</span>
-        <span class="k">@include</span> <span class="nd">span-columns</span><span class="p">(</span><span class="m">4</span><span class="p">);</span>
-        <span class="k">@include</span> <span class="nd">omega</span><span class="p">(</span><span class="m">3n</span><span class="o">+</span><span class="m">2</span><span class="p">);</span>
+        <span class="k">@include</span> <span class="nd">span-columns</span><span class="p">(</span><span class="m">6</span><span class="p">);</span>
+        <span class="k">&amp;</span><span class="nd">:nth-child</span><span class="o">(</span><span class="nt">2n</span><span class="o">+</span><span class="nt">3</span><span class="o">)</span> <span class="p">{</span>
+            <span class="nl">margin-right</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+        <span class="p">}</span>
 
         <span class="k">&amp;</span><span class="nd">:first-child</span> <span class="p">{</span>
-            <span class="k">@include</span> <span class="nd">span-columns</span><span class="p">(</span><span class="m">8</span><span class="p">);</span>
+            <span class="k">@include</span> <span class="nd">span-columns</span><span class="p">(</span><span class="m">12</span><span class="p">);</span>
+            <span class="nl">margin-right</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
             <span class="nc">.entry-title</span> <span class="p">{</span>
                 <span class="nl">font-size</span><span class="p">:</span> <span class="nf">rem</span><span class="p">(</span><span class="m">50</span><span class="p">);</span>
                 <span class="nl">line-height</span><span class="p">:</span> <span class="nf">rem</span><span class="p">(</span><span class="m">56</span><span class="p">);</span>
