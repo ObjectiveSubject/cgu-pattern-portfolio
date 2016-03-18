@@ -367,9 +367,10 @@ input,
 select,
 textarea {
   color: #333;
-  font-family: "GothamNarrow", "Arial", sans-serif;
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Arial", sans-serif;
   font-size: 1rem;
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  font-weight: 400; }
 
 /* Headings
  * ------------------------------------------ */
@@ -382,24 +383,25 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   font-size: 4rem;
   line-height: 1em;
-  font-family: "Gotham", "Arial", sans-serif;
-  font-weight: 700; }
+  font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase; }
 
 h2, .h2 {
   font-size: 3.125rem;
   line-height: 1.1em;
-  font-weight: 300; }
+  font-weight: 200; }
 
 h3, .h3 {
   font-size: 1.625rem;
   line-height: 1.3em;
-  font-weight: 300; }
+  font-weight: 200; }
 
 h4, .h4 {
   font-size: 0.875rem;
   line-height: 1.4em;
   text-transform: uppercase;
-  font-family: "Gotham", "Arial", sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
   font-weight: 700; }
 
 h5, .h5 {
@@ -416,18 +418,15 @@ p {
   margin-bottom: 0; }
 
 ul, ol {
-  margin: 0 0 1.5em; }
-
-ul {
-  list-style: disc; }
+  margin: 0 0 1.5em;
+  padding: 0 0 0 2em; }
 
 ol {
   list-style: decimal; }
 
 li > ul,
 li > ol {
-  margin-bottom: 0;
-  margin-left: 1.5em; }
+  margin: 0; }
 
 dt {
   font-weight: bold; }
@@ -712,7 +711,7 @@ input[type="submit"] {
   box-shadow: none;
   color: white;
   display: inline-block;
-  font-family: "Gotham", "Arial", sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
   line-height: 1;
@@ -977,7 +976,7 @@ th {
   .table > thead > tr > th,
   .table > tbody > tr > th,
   .table > tfoot > tr > th {
-    font-family: "Gotham", "Arial", sans-serif; }
+    font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif; }
   .table > thead > tr > th,
   .table > thead > tr > td,
   .table > tbody > tr > th,
@@ -1193,7 +1192,7 @@ th {
   .site-header a {
     color: white;
     font-weight: bold;
-    font-family: "Gotham", "Arial", sans-serif;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
     text-transform: uppercase;
     font-size: 0.9rem;
     padding: 1.5em 1em;
@@ -1302,7 +1301,7 @@ th {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: "Gotham", "Arial", sans-serif;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
     padding: 0.25rem 0; }
 
 .post-title {
