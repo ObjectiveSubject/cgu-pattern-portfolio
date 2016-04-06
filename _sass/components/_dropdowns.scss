@@ -1,12 +1,16 @@
 .dropdown-group {
     @include clearfix;
+    padding: 0;
+    list-style: none;
 }
 
 .dropdown-list-item {
-	@include media($md) {
-		@include span-columns(6);
-		@include omega(2n);
-	}
+    .two-column & {
+        @include media($md) {
+    		@include span-columns(6);
+    		@include omega(2n);
+    	}
+    }
 	.dropdown-content {
 		display: none;
 	}
