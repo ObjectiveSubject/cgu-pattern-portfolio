@@ -81,6 +81,16 @@ html {
 
 @font-face {
   font-family: "GothamNarrow";
+  src: url("../fonts/GothamNarrow-Light.otf");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "GothamNarrow";
+  src: url("../fonts/GothamNarrow-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: "GothamNarrow";
   src: url("../fonts/GothamNarrow-Book.otf");
   font-weight: 400;
   font-style: normal; }
@@ -367,7 +377,7 @@ input,
 select,
 textarea {
   color: #333;
-  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Arial", sans-serif;
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "GothamNarrow", "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400; }
@@ -383,7 +393,7 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   font-size: 4rem;
   line-height: 1em;
-  font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Gotham", "Arial", sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
 
@@ -401,7 +411,7 @@ h4, .h4 {
   font-size: 0.875rem;
   line-height: 1.4em;
   text-transform: uppercase;
-  font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Gotham", "Arial", sans-serif;
   font-weight: 700; }
 
 h5, .h5 {
@@ -711,7 +721,7 @@ input[type="submit"] {
   box-shadow: none;
   color: white;
   display: inline-block;
-  font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Gotham", "Arial", sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
   line-height: 1;
@@ -753,23 +763,26 @@ input[type="submit"] {
     background: lightgray;
     cursor: default; }
 
-.dropdown-group:before, .dropdown-group:after {
-  content: "";
-  display: table; }
-.dropdown-group:after {
-  clear: both; }
+.dropdown-group {
+  padding: 0;
+  list-style: none; }
+  .dropdown-group:before, .dropdown-group:after {
+    content: "";
+    display: table; }
+  .dropdown-group:after {
+    clear: both; }
 
 @media screen and (min-width: 768px) {
-  .dropdown-list-item {
+  .two-column .dropdown-list-item {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    .dropdown-list-item:last-child {
+    .two-column .dropdown-list-item:last-child {
       margin-right: 0; }
-    .dropdown-list-item:nth-child(2n) {
+    .two-column .dropdown-list-item:nth-child(2n) {
       margin-right: 0; }
-    .dropdown-list-item:nth-child(2n+1) {
+    .two-column .dropdown-list-item:nth-child(2n+1) {
       clear: left; } }
 .dropdown-list-item .dropdown-content {
   display: none; }
@@ -976,7 +989,7 @@ th {
   .table > thead > tr > th,
   .table > tbody > tr > th,
   .table > tfoot > tr > th {
-    font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif; }
+    font-family: "Gotham SSm A", "Gotham SSm B", "Gotham", "Arial", sans-serif; }
   .table > thead > tr > th,
   .table > thead > tr > td,
   .table > tbody > tr > th,
@@ -1192,7 +1205,7 @@ th {
   .site-header a {
     color: white;
     font-weight: bold;
-    font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Gotham", "Arial", sans-serif;
     text-transform: uppercase;
     font-size: 0.9rem;
     padding: 1.5em 1em;
@@ -1301,7 +1314,7 @@ th {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: "Gotham SSm A", "Gotham SSm B", "Arial", sans-serif;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Gotham", "Arial", sans-serif;
     padding: 0.25rem 0; }
 
 .post-title {
